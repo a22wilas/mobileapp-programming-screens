@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
             int number = extras.getInt("number");
             String text = extras.getString("text");
             TextView myText = findViewById(R.id.myActivityText);
-            myText.setText(name+number);
+            myText.setText(name+ " " + number);
 
             TextView getText = findViewById(R.id.textR);
             getText.setText(text);
